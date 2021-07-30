@@ -30,7 +30,7 @@ public class Browser {
       if(actualTitle.equalsIgnoreCase(expectedTitle))
 			System.out.println("Title Matched");
 		else
-			System.out.println("Title did not match");
+			System.out.println("Title did'nt match");
       
       driver.close();
   }      
